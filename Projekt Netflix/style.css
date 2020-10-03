@@ -1,0 +1,201 @@
+/*Globalne*/
+
+p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+.btn {
+    padding: .5rem 1.2rem;
+}
+
+.page-label {
+    letter-spacing: .15rem;
+}
+
+.section-header {
+    margin-bottom: 60px;
+    font-size: 2.7rem;
+}
+
+/*Navbar*/
+
+.navbar .navbar-nav .nav-item {
+    padding: 0 5.85rem;
+}
+
+/*Top*/
+
+.top {
+    padding: 120px;
+    background-color: black;
+}
+
+.top-header {
+    margin-bottom: 1.3rem;
+    font-size: 5rem;
+}
+
+.top-text {
+    font-size: 1rem;
+}
+
+.top-button {
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .top-header {
+        font-size: 2em;
+    }
+    .top-text {
+        font-size: .8rem;
+    }
+    .top {
+        padding: 50px;
+        background-color: black;
+    }
+}
+
+/*Wprowadzenie*/
+
+.introduction {
+    padding: 50px 0 50px;
+}
+
+.introduction-item {
+    padding: 1rem 1.5rem;
+}
+
+.introduction-item-header {
+    margin: 20px 0;
+}
+
+/*Cytat*/
+
+.testimonial {
+    padding: 50px 0;
+    background-image: url("https://www.publicdomainpictures.net/pictures/30000/velka/film-background-1334067869u9d.jpg");
+    background-position: 0% 30%;
+}
+
+.testimonial-content {
+    width: 80%;
+}
+
+.testimonial-text {
+    font-size: 1.2rem;
+}
+
+/* Filmy*/
+
+.films {
+    padding:50px;
+    background-color: #f8f8f8;
+}
+
+.films-img {
+    margin-bottom: 1.5rem;
+    width: 530px;
+    height: 330px;
+    object-fit: cover;
+}
+
+.films-subheader {
+    font-size: 1.5rem;
+    margin: .2rem 0 .6rem;
+}
+
+.films-button {
+    margin: .5rem 0 2rem;
+    padding: .5rem 2rem;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .films-img {
+        margin-bottom: 1.5rem;
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/*Aktorzy*/
+
+.actors {
+    padding: 80px 0 50px;
+}
+
+.actors .col-md {
+    margin-top: 50px;
+}
+
+.actors-item {
+    padding: 0 1.5rem;
+}
+
+.actors-item-header {
+    margin: 20px 0;
+}
+
+.actor {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Formluarz*/
+
+.form {
+    margin-top: 50px;
+    background-color: #f8f8f8;
+    padding:10px;
+}
+
+.section-header-napisz {
+    margin-bottom: 60px;
+    font-size: 2.7rem;
+}
+
+.form-question {
+    margin-top: 50px;
+}
+
+.form .form-control-label {
+    color: grey;
+}
+
+.form .form-control {
+    margin-bottom: 40px;
+    border-color: grey;
+}
+
+.form input {
+    height: 2rem;
+}
+
+.form textarea {
+    height: 5rem;
+}
+
+.form-button {
+    padding: 10px 20px;
+    margin-bottom: 3rem;
+}
+
+/*Stopka*/
+
+.copyright {
+    padding: 30px 0;
+}
+
+.copyright-text {
+    letter-spacing: .3rem;
+    font-size: 1.3rem;
+}
+
+.copyright-designed {
+    letter-spacing: .1rem;
+    font-size: .8rem;
+}
